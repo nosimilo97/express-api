@@ -1,0 +1,12 @@
+
+POST http://localhost:3000/api/hello HTTP/1.1
+Content-type: application/json
+
+{
+    "name": "Nosi",
+    "surname": "Mtshali"
+}
+
+###
+
+GET http://localhost:3000/api/hello?name=Nosimilo&surname=Mtshali HTTP/1.1
